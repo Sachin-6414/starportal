@@ -5,6 +5,7 @@ import hero from "../assets/hero.gif";
 import { FaArrowRight } from "react-icons/fa6";
 import LearnerNFT from "./LearnerNFT";
 import Accordion from "./Accordion";
+import Accordion2 from "./Accordion2";
 
 
 const MainContent = () => {
@@ -51,6 +52,14 @@ const MainContent = () => {
 
       <div>
       <LearnerNFT />
+      </div>
+
+      <div>
+        <LearnerNFT />
+      </div>
+
+      <div className="accordion2">
+        <Accordion2 />
       </div>
 
     </div>

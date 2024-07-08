@@ -8,9 +8,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-
-  
 }
 
 body {
@@ -190,13 +187,14 @@ nav ul li .active::after {
 }
 
 .learner-container{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 5px;
-  position: relative;
-  top: -440px;
+  position: absolute;
+  /* top: -1240px; */
+  top: 850px;
   width: 170px;
   left: 1045px;
   padding: 10px;
@@ -204,17 +202,19 @@ nav ul li .active::after {
 }
 
 .learner-nft {
-  /* text-align: center;
-  padding: 10px;
-  background-color: #111;
-  color: #fff;
-  border-radius: 10%;
-  max-width: 180px;
-  margin: 0 auto;
+  margin-bottom: -35px;
+  line-height: 8px;
+}
+
+.lock{
+  display: inline-block;
   position: relative;
-  top: -1200px;
-  left: 400px;
-  margin-bottom: 10px; */
+  top: -25px;
+  left: 70px;
+  background-color: #333;
+  border-radius: 20px;
+  padding: 8px;
+  border: 1px solid #fffcfc;
 }
 
 .learner-nft-image {
@@ -226,14 +226,21 @@ nav ul li .active::after {
 }
 
 .learner-nft-title {
+  width: 235px;
   font-size: 1em;
   color: #d9d9d9;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  line-height: 20px;
+
 }
 
 .learner-nft-description {
-  font-size: 0.9em;
+  width: 170px;
+  text-align: left;
+  font-size: 0.8em;
+  color: #a2a2a2;
 }
 
 
@@ -347,8 +354,8 @@ nav ul li .active::after {
 }
 
 .dotted-line2 > svg {
-  position: relative;
-  top: -1020px;
+  position: absolute;
+  top: 820px;
   left: 350px;
   stroke-width: 2;
   fill: none;
@@ -362,7 +369,6 @@ nav ul li .active::after {
   z-index: 1;
     width: 32%;
   /* overflow-y: auto; */
-  
   margin-left: 20px;
   padding: 0px;
   color: white;
@@ -378,7 +384,39 @@ nav ul li .active::after {
   left: 9rem;
 }
 
+.accordion-container2 {
+  /* height: calc(3*200px); */
+  z-index: 1;
+    width: 32%;
+  /* overflow-y: auto; */
+  margin-left: 20px;
+  padding: 0px;
+  color: white;
+  background-color: rgb(19, 19, 19);
+  /* -webkit-backdrop-filter: blur(12px) saturate(80%);
+  backdrop-filter: blur(12px) saturate(80%); */
+  border: none;
+  /* border: 1px solid rgb(255, 255, 255); */
+  display: flex;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+
 .accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+  cursor: pointer;
+  background-color: rgb(41, 41, 41);
+  text-align: left;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 1px solid #484848;
+}
+
+.accordion-header2 {
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -415,7 +453,6 @@ nav ul li .active::after {
   background: var(--White-05, rgba(255, 255, 255, 0.05));
   position: relative;
 }
-
 
 
 .quest-heading {
@@ -531,7 +568,7 @@ nav ul li .active::after {
   width: 50px;
   border-radius: 40px;
   border: 1px solid #868686;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* position: relative; 
   left: 40px; */
 }

@@ -1,16 +1,15 @@
 // src/Accordion.js
 import React, { useState } from 'react';
 import questhead1 from "../assets/questhead1.png";
-import quest1 from "../assets/quest1.png";
-import quest2 from "../assets/quest2.jpg";
-import quest3 from "../assets/quest3.jpg";
-import quest4 from "../assets/quest4.jpg";
-import quest5 from "../assets/quest5.jpg";
-import quest6 from "../assets/quest6.jpg";
+import questhead2 from "../assets/questhead2.png"
+import quest21 from "../assets/quest21.jpg"
+import quest22 from "../assets/quest22.jpg"
+import quest23 from "../assets/quest23.png"
+import quest24 from "../assets/quest24.jpg"
 
 const AccordionItem = ({ title, desc, children, isOpen, onClick, imgSrc, xp }) => (
-  <div className="accordion-item">
-    <div className="accordion-header" onClick={onClick} >
+  <div className="accordion-item2">
+    <div className="accordion-header2" onClick={onClick} >
       <div>
       <img src={imgSrc} alt="quest_head1" className="quest-head" />
       {/* <span className="head-quest">6 Quests</span> */}
@@ -43,53 +42,41 @@ const Accordion = () => {
 
   const accordionData1 = [
     {
-      title: "#1: But what is crypto and...",
+      title: "#1: What are airdrops, and...",
       content: "-----------------------------------",
-      imgSrc: quest1,
+      imgSrc: quest21,
       task: "11 Tasks",
     },
     {
-      title: "#2: Setting up your we...",
+      title: "#2: Types of airdrops",
       content: "-----------------------------------",
-      imgSrc: quest2,
+      imgSrc: quest22,
       task: "8 Tasks",
     },
     {
-      title: "#3: What the heck is a...",
+      title: "#3: How to earn huge $$$...",
       content: "-----------------------------------",
-      imgSrc: quest3,
+      imgSrc: quest23,
       task: "8 Tasks",
     },
     {
-      title: "#4: Swapping and bridging...",
+      title: "#4: Things to keep in mind",
       content: "-----------------------------------",
-      imgSrc: quest4,
+      imgSrc: quest24,
       task: "10 Tasks",
-    },
-    {
-      title: "#5: NFTs and why they're...",
-      content: "-----------------------------------",
-      imgSrc: quest5,
-      task: "6 Tasks",
-    },
-    {
-      title: "#6: Doing quests and winning...",
-      content: "-----------------------------------",
-      imgSrc: quest6,
-      task: "8 Tasks",
     },
   ];
   return (
 
     <>
-    <div className="accordion-container">
+    <div className="accordion-container2">
         <AccordionItem
           className="accordion-item"
-          title="Basics of Crypto"
-          imgSrc={questhead1}
-          desc="The safest and easiest place to start your crypto journey!"
+          title="Introduction to Airdrops"
+          imgSrc={questhead2}
+          desc="Your best bet to make it big in crypto!"
           isOpen={isOpen}
-          xp="1490 XPs"
+          xp="1040 XPs"
           onClick={toggleAccordion}
         >
           {accordionData1.map((item, index) => (
