@@ -1,6 +1,5 @@
 // src/Accordion.js
 import React, { useState } from 'react';
-import questhead1 from "../assets/questhead1.png";
 import questhead2 from "../assets/questhead2.png"
 import quest21 from "../assets/quest21.jpg"
 import quest22 from "../assets/quest22.jpg"

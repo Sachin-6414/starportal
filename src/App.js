@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect, Link } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import Header from './components/Header';
-import Tabs from './components/Tabs';
+import Footer from './components/Footer'
 
 // import Essentials from './pages/Essentials';
 // import AlphaHub from './pages/AlphaHub';
@@ -13,10 +13,10 @@ const App = () => (
   <Router>
     <Header />
     <MainContent />
-    <Tabs />
     {/* <Routes>
       <Link to"/" </Routes>></Link>
     </Routes> */}
+    <Footer />
   </Router>
 );
 

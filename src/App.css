@@ -142,6 +142,8 @@ nav ul li .active::after {
   bottom: 3.4rem;
   /* left: 650px; */
   margin: 0 auto;
+  margin-bottom: 60px;
+  margin-top: -50px;
 }
 
 .toggle-button {

@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "../App.css";
 import BackgroundImg from "../assets/backgroundImg.png";
 import hero from "../assets/hero.gif";
-import { FaArrowRight } from "react-icons/fa6";
 import LearnerNFT from "./LearnerNFT";
 import Accordion from "./Accordion";
 import Accordion2 from "./Accordion2";
+import CryptoCreators from "./CryptoCreators";
+import CryptoDictionary from "./CryptoDictionary";
+import Tabs from "../components/Tabs"
+import ContentSection3 from "./ContentSection3";
 
 
 const MainContent = () => {
@@ -32,8 +35,14 @@ const MainContent = () => {
           learn how to earn crypto!
         </p>
         <button className="get-started">
-          Get Started
-          <FaArrowRight className="arrow" />
+          <p className="hover:ml-2 transition-all duration-300 ease-in-out">
+                    Claim Now{" "}
+                  </p>
+                  <img
+                    className="ml-2 mt-2"
+                    src="https://www.intract.io/assets/arrow-right-1c96f4ae.svg"
+                    alt="arrow_icon"
+                  />
         </button>
       </div>
       </div>
@@ -61,6 +70,11 @@ const MainContent = () => {
       <div className="accordion2">
         <Accordion2 />
       </div>
+
+    <ContentSection3 />
+    <CryptoCreators />
+    <CryptoDictionary />
+    <Tabs />
 
     </div>
   );

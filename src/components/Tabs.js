@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import "../App.css"
-import { Button, ChakraProvider} from '@chakra-ui/react';
+import { ChakraProvider} from '@chakra-ui/react';
 
 const Tabs = () => {
 
