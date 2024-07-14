@@ -4,27 +4,23 @@ import creator2 from "../assets/creator2.png";
 import creator3 from "../assets/creator3.png";
 import creator4 from "../assets/creator4.png";
 // import ImageOverlay from "./ImageOverlay";
-import playButton from "../assets/playButton.png";
+// import playButton from "../assets/playButton.png";
 
 const images = [
   {
     id: 1,
-
     imageUrl: creator1,
   },
   {
     id: 2,
-
     imageUrl: creator2,
   },
   {
     id: 3,
-
     imageUrl: creator3,
   },
   {
     id: 4,
-
     imageUrl: creator4,
   },
 ];

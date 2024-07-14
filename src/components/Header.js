@@ -67,13 +67,7 @@ const Header = () => {
     <li>
     <div>
     <Button onClick={onOpen} className='igtv'>
-        {/* <PiTelevisionSimpleBold 
-            backgroundColor="rgba(0,0,0,0.8)"
-            size={32}
-            style={{ fill: 'black'}}
-            borderRadius="20px"
-
-        /> */}
+        
         <img src={igtv1} alt='igtv' className='igtv' />
     </Button>
 
@@ -92,7 +86,7 @@ const Header = () => {
             top="8px"
             borderRadius="20px"
             onClick={onClose}
-            backgroundColor={ "rgba(0,0,0,0.3)"}
+            backgroundColor={ "#fff"}
             color={"#fff"}
             height="40px"
             width="40px"
@@ -103,8 +97,8 @@ const Header = () => {
     />
     <DrawerHeader>Alhpa Feed</DrawerHeader>
 
-    <DrawerBody>
-      <p>Today's happening</p>
+    <DrawerBody backgroundColor={"#fff"}>
+      <p color='#fff'>Today's happening</p>
     </DrawerBody>
 
     <DrawerFooter>

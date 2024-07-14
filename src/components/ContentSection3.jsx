@@ -17,7 +17,7 @@ const ContentSection3 = () => {
             <hr className="border-dashed border-gray-600 mt-4" />
 
             <div className="screen flex items-center justify-center">
-            {/* <img src={timerBg} className="p-2 rounded-2xl" alt="timer" /> */}
+              {/* <img src={timerBg} className="p-2 rounded-2xl" alt="timer" /> */}
               <CountdownTimer />
             </div>
 
@@ -76,7 +76,9 @@ const ContentSection3 = () => {
           </div>
           <hr className="border border-gray-800 mt-4" />
           <div className="p-x-4 p-2">
-            <p className="text-[#d7d7d7] text-left">Free access to paid KOL (crypto earning) communities!</p>
+            <p className="text-[#d7d7d7] text-left">
+              Free access to paid KOL (crypto earning) communities!
+            </p>
             <br />
             <p className="text-[#717171]  text-left">
               Win access to exclusive earning communities of some of the
